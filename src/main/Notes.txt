@@ -1,0 +1,49 @@
+1 --> Given Name of Project and Select FreeStyle Project
+
+2 --> In General settings
+      --------------------
+
+      --> In General settings "give project url from the Tab"
+
+      --> Like this " "
+
+
+3 --> In Source Code
+
+    Select Git and give GitHUb url from the " "
+
+
+  --> In Jenkins credentials give userName and Password of Jenkins
+
+  --> username : abdulrehaman
+  --> password : Jenkin@627
+
+
+4 --> In Built Triggers
+
+    --> select Poll Scum
+
+    --> In poll scum give cron expressions for CI-CD
+
+    --> like * * * * *  for every min ,i want to install latest github src code
+
+
+5 --> In Build Environment
+
+      --> skip as per the requirements
+
+
+6 --> In Build
+
+    --> Give Maven goal like install
+
+
+7 --> In Post Build Actions
+
+    --> select Email sending option and
+
+    --> give email id
+
+    --> for every jerkins work weather it is failed or success it generates report to give mail id
+
+
